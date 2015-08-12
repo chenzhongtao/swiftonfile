@@ -47,7 +47,7 @@ class ObjectController(server.ObjectController):
         self._diskfile_mgr = DiskFileManager(conf, self.logger)
 
     def get_diskfile(self, device, partition, account, container, obj,
-                     policy_idx, **kwargs):
+                     policy_idx = 0, **kwargs):
         """
         Utility method for instantiating a DiskFile object supporting a given
         REST API.

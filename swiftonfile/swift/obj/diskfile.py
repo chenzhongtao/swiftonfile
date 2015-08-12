@@ -50,7 +50,7 @@ from swiftonfile.swift.common.utils import X_CONTENT_TYPE, \
     X_ETAG, X_CONTENT_LENGTH
 from ConfigParser import ConfigParser, NoSectionError, NoOptionError
 from swift.obj.diskfile import DiskFileManager as SwiftDiskFileManager
-from swift.obj.diskfile import get_async_dir
+#from swift.obj.diskfile import get_async_dir
 
 # FIXME: Hopefully we'll be able to move to Python 2.7+ where O_CLOEXEC will
 # be back ported. See http://www.python.org/dev/peps/pep-0433/
